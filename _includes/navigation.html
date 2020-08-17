@@ -1,0 +1,16 @@
+<nav class="navigation--container">
+  <div class="navigation--div-container">
+    <span class="navigation--text" id="navigation--name">Thalia Lizeth</span>
+
+    {% for item in site.data.navigation %}
+      <a href="{{ item.link }}" {% if page.url == item.link %}class="navigation--current"{% endif %}>
+        {{ item.name }}
+      </a>
+    {% endfor %}
+  
+    <div class="navigation--resume">
+      <img src="../../assets/images/arrow_down.png" alt="arrow-down">
+      <span>Resume</span>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,46 @@
+.navigation--container {
+  color: var(--venice-blue);
+
+  .navigation--div-container {
+    margin: 26px 100px;
+    display: flex;
+    align-items: center;
+
+    #navigation--name {
+      padding-right: 600px;
+    }
+
+    a {
+      height: 34px;
+      width: 131px;
+      color: var(--venice-blue);
+      text-decoration: none;
+
+      border: 1px solid var(--venice-blue);
+      border-radius: 15px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    a:visited {
+      text-decoration: none;
+    }
+
+    .navigation--resume {
+      height: 20px;
+      img {
+        padding-right: 3px;
+      }
+      span {
+        height: 100%;
+      }
+    }
+  }
+
+  a.navigation--current {
+    background-color: var(--rajah);
+    border: none;
+  }
+}
