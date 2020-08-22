@@ -22,6 +22,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
+
+      margin-right: 16px;
     }
 
     a:visited {
@@ -30,11 +32,19 @@
 
     .navigation--resume {
       height: 20px;
+      width: 96px;
+      display: flex;
+
       img {
-        padding-right: 3px;
+        height: 16px;
+        width: 16px;
+        margin: 2px 8px;
       }
       span {
         height: 100%;
+        width: 56px;
+        font-size: 15px;
+        margin: 2px 8px 2px 0px;
       }
     }
   }
