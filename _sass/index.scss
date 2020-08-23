@@ -1,0 +1,29 @@
+.index {
+  margin-left: 100px;
+
+  .index--content-title {
+    color: var(--venice-blue);
+    font-size: 48px;
+    width: 642px;
+    height: 122px;
+    margin-top: 135px;
+    margin-bottom: 0px;
+  }
+
+  .index--content-description {
+    color: var(--mine-shaft);
+    font-size: 27px;
+    width: 503px;
+    height: 114px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+  }
+
+  .index--see-my-work {
+    color: var(--tuscany);
+    font-size: 25px;
+    width: 182px;
+    height: 34px;
+    margin-top: 32px;
+  }
+}
