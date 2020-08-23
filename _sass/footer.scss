@@ -1,0 +1,39 @@
+.footer {
+  width: 100%;
+  height: 47px;
+  background-color: var(--burnt-sienna);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+  color: white;
+  display: flex;
+
+  div {
+    width: 50%;
+
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 13px;
+      margin-bottom: 13px;
+      height: 21px;
+      font-size: 13px;
+    }
+  }
+
+  .footer--year-name {
+    width: 313px;
+  }
+
+  .footer--say-hello-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .footer--say-hello {
+    width: 216px;
+    margin-right: 104px;
+  }
+}
