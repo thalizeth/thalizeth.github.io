@@ -9,4 +9,8 @@
 
 body {
   background-color: var(--black-white);
+
+  .side-and-content-container {
+    display: flex;
+  }
 }
