@@ -8,5 +8,22 @@
 
   .about--right-container {
     width: 50%;
+    margin-top: 75px;
+
+    .about--right-subcontainer {
+      width: 382px;
+    }
+
+    .about--right-title {
+      color: var(--venice-blue);
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 31px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 160%;
+    }
   }
 }

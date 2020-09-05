@@ -1,12 +1,31 @@
 ---
 layout: default
 title: About
+right_title: A bit about Thalia
+right_content_1: "After studying Industrial Design, I shifted my interests to technology and the way we humans interact with it. I discovered more ways of helping people: through experiences, services, and interactions. I felt intrigued. Two years ago, I began pursuing a career to become a UX Designer, and here I am (:"
+right_content_2: "During my studies, I developed an enthusiastic curiosity about the way emerging technologies influences our lives.  I’ve learned to research, sketch, and build prototypes to test design ideas. Now, ranging from web design and apps development to interactive products."
+right_content_3: "Outside of my day job, it’s important for me to grow as an individual. I learn and work in my personal projects. I enjoy playing video games (currently into Nino Kuni and Animal Crossing...)and, I cooking pesto pasta."
+right_subtitle: Currently...
+right_content_4: "I am looking for a new opportunity to join a super cool user centered team as a UX Designer or User Researcher."
+right_content_5: "Rencently I’ve been learning basic HTML, CSS + Javascript."
 ---
 <div class="about--container">
   <div class="about--left-container">
     <h1>left</h1>
   </div>
   <div class="about--right-container">
-    <h1>right</h1>
+    <div class="about--right-subcontainer">
+      <span class="about--right-title">{{ page.right_title }}</span>
+
+      <p>{{ page.right_content_1 }}</p>
+      <p>{{ page.right_content_2 }}</p>
+      <p>{{ page.right_content_3 }}</p>
+    </div>
+
+    <div class="about--right-subcontainer">
+      <span class="about--right-title">{{ page.right_subtitle }}</span>
+      <p>{{ page.right_content_4 }}</p>
+      <p>{{ page.right_content_5 }}</p>
+    </div>
   </div>
 </div>
