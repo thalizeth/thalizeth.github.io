@@ -3,12 +3,35 @@
   display: flex;
 
   .about--left-container {
-    width: 50%;
+    width: 514px;
+    margin-top: 75px;
+    margin-left: 107px;
+    margin-right: 125.5px;
+
+    .about--left-image {
+      width: 514px;
+      height: 321px;
+    }
+
+    .about--left-image-text {
+      margin-top: 8px;
+      width: 339px;
+      color: var(--venice-blue);
+      font-size: 14px;
+      line-height: 147.5%;
+      letter-spacing: 0.4px;
+    }
   }
 
   .about--right-container {
     width: 50%;
     margin-top: 75px;
+    position: fixed;
+    overflow-y: scroll;
+    right: 0;
+    //height: 100%;
+    height: calc(90%);
+    margin-bottom: 90px;
 
     .about--right-subcontainer {
       width: 382px;
