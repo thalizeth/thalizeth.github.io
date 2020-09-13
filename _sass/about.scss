@@ -1,10 +1,11 @@
 .about--container {
   width: 100%;
   display: flex;
+  margin-top: 75px;
 
   .about--left-container {
+    position: fixed;
     width: 514px;
-    margin-top: 75px;
     margin-left: 107px;
     margin-right: 125.5px;
 
@@ -25,13 +26,11 @@
 
   .about--right-container {
     width: 50%;
-    margin-top: 75px;
-    position: fixed;
+    position: absolute;
     overflow-y: scroll;
     right: 0;
-    //height: 100%;
-    height: calc(90%);
-    margin-bottom: 90px;
+    height: 100%;
+    margin-bottom: 91px;
 
     .about--right-subcontainer {
       width: 382px;
