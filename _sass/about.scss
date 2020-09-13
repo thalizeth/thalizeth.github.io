@@ -1,13 +1,12 @@
 .about--container {
   width: 100%;
   display: flex;
-  margin-top: 75px;
+  margin-top: 149px;
 
   .about--left-container {
     position: fixed;
     width: 514px;
     margin-left: 107px;
-    margin-right: 125.5px;
 
     .about--left-image {
       width: 514px;
@@ -26,7 +25,7 @@
 
   .about--right-container {
     width: 50%;
-    position: absolute;
+    margin-left: 855px;
     overflow-y: scroll;
     right: 0;
     height: 100%;
