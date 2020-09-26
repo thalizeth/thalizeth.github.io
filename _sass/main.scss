@@ -7,9 +7,15 @@
   --venice-blue: #07589D;
 }
 
+html {
+  height: 100%
+}
+
 body {
   background-color: var(--black-white);
   margin: 0;
+  position: relative;
+  min-height: 100%;
 
   .side-and-content-container {
     display: flex;
