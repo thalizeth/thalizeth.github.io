@@ -35,6 +35,20 @@
       text-decoration: none;
     }
 
+    .navigation--my-portfolio {
+      height: 20px;
+      width: 123px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0px 0px 0px 8px;
+
+      span {
+        font-weight: 600;
+        font-size: 15px;
+      }
+    }
+
     .navigation--resume {
       height: 20px;
       width: 96px;
