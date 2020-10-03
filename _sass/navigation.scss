@@ -5,6 +5,10 @@
   background-color: var(--black-white);
   overflow: hidden;
   top: 0;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  font-style: normal;
 
   .navigation--div-container {
     margin: 26px 100px;
@@ -13,25 +17,38 @@
 
     #navigation--name {
       padding-right: 600px;
+      font-family: lora;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 30px;
     }
 
-    a {
-      height: 34px;
-      width: 131px;
-      color: var(--venice-blue);
-      text-decoration: none;
-
-      border: 1px solid var(--venice-blue);
-      border-radius: 18px;
-
+    .navigation--pages {
       display: flex;
-      justify-content: center;
-      align-items: center;
 
-      margin-right: 16px;
+      a {
+        height: 34px;
+        width: 131px;
+        color: var(--venice-blue);
+        text-decoration: none;
+
+        border: 1px solid var(--venice-blue);
+        border-radius: 18px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-right: 16px;
+      }
+
+      a:visited {
+        text-decoration: none;
+      }
     }
 
-    a:visited {
+    a.navigation--download {
+      color: var(--venice-blue);
       text-decoration: none;
     }
 
@@ -41,11 +58,10 @@
       display: flex;
       flex-direction: row;
       align-items: flex-start;
-      padding: 0px 0px 0px 8px;
+      padding: 0px 0px 0px 0px;
 
-      span {
-        font-weight: 600;
-        font-size: 15px;
+      img {
+        margin: 2px 8px;
       }
     }
 
@@ -62,8 +78,6 @@
       span {
         height: 100%;
         width: 56px;
-        font-size: 15px;
-        margin: 2px 8px 2px 0px;
       }
     }
   }

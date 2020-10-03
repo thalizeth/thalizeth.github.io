@@ -16,8 +16,18 @@ body {
   margin: 0;
   position: relative;
   min-height: 100%;
+  font-family: nunito;
 
   .side-and-content-container {
     display: flex;
   }
+}
+
+@font-face {
+  font-family: lora;
+  src: url("../fonts/Lora-Regular.ttf");
+}
+@font-face {
+  font-family: nunito;
+  src: url("../fonts/Nunito-Regular.ttf");
 }

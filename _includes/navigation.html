@@ -2,20 +2,22 @@
   <div class="navigation--div-container">
     <span class="navigation--text" id="navigation--name">Thalia Lizeth</span>
 
-    {% for item in site.data.navigation %}
-      <a href="{{ item.link }}" {% if page.url == item.link %}class="navigation--current"{% endif %}>
-        {{ item.name }}
-      </a>
-    {% endfor %}
+    <div class="navigation--pages">
+      {% for item in site.data.navigation %}
+        <a href="{{ item.link }}" {% if page.url == item.link %}class="navigation--current"{% endif %}>
+          {{ item.name }}
+        </a>
+      {% endfor %}
+    </div>
 
-    <div class="navigation--my-portfolio">
+    <a href="" class="navigation--my-portfolio navigation--download">
       <img src="../../assets/images/arrow_down.png" alt="arrow-down">
       <span>My portfolio</span>
-    </div>
+    </a>
 
-    <div class="navigation--resume">
+    <a href="" class="navigation--resume navigation--download">
       <img src="../../assets/images/arrow_down.png" alt="arrow-down">
       <span>Resume</span>
-    </div>
+    </a>
   </div>
 </nav>
