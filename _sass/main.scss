@@ -24,10 +24,17 @@ body {
 }
 
 @font-face {
-  font-family: lora;
-  src: url("../fonts/Lora-Regular.ttf");
+  font-family: nunito;
+  src: url("../fonts/Nunito/Nunito-Bold.ttf");
+  font-weight: bold;
 }
+
 @font-face {
   font-family: nunito;
-  src: url("../fonts/Nunito-Regular.ttf");
+  src: url("../fonts/Nunito/Nunito-Regular.ttf");
+}
+
+@font-face {
+  font-family: lora;
+  src: url("../fonts/Lora-Regular.ttf");
 }
