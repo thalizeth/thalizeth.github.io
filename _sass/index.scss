@@ -1,7 +1,10 @@
 .index {
   .index--content-title {
     color: var(--venice-blue);
+    font-family: lora;
+    font-weight: 700;
     font-size: 48px;
+    line-height: 61.44px;
     width: 642px;
     height: 122px;
     margin-top: 135px;
@@ -10,18 +13,32 @@
 
   .index--content-description {
     color: var(--mine-shaft);
-    font-size: 27px;
+    font-family: lora;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
     width: 503px;
-    height: 114px;
     margin-top: 24px;
-    margin-bottom: 0px;
+    margin-bottom: 66px;
   }
 
-  .index--see-my-work {
-    color: var(--tuscany);
-    font-size: 25px;
-    width: 182px;
-    height: 34px;
-    margin-top: 32px;
+  .index--my-work-container {
+    display: flex;
+
+    .index--see-my-work {
+      color: var(--tuscany);
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: bold;
+      margin: 0px 16px 0px 0px;
+      //width: 182px;
+      //height: 34px;
+    }
+
+    img {
+      width: 16px;
+      height: 16px;
+      margin: 3px 0px;
+    }
   }
 }
