@@ -5,6 +5,7 @@
   position: absolute;
   left: 0;
   bottom: 0;
+  font-weight: 600;
 
   color: white;
   display: flex;
@@ -25,6 +26,7 @@
 
   .footer--year-name {
     width: 313px;
+    letter-spacing: 0.0025em;
   }
 
   .footer--say-hello-container {
